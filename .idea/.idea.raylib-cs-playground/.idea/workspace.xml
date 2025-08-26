@@ -13,11 +13,7 @@
       <change beforePath="$PROJECT_DIR$/../mentorio/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mentorio/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.raylib-cs-playground/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.raylib-cs-playground/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Game.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/raylib-cs-playground.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/raylib-cs-playground.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/raylib-cs-playground.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/raylib-cs-playground.sln.DotSettings.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/steam_api64.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/steam_appid.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Network.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Network.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +110,7 @@
       <workItem from="1756173202164" duration="4565000" />
       <workItem from="1756178565209" duration="3752000" />
       <workItem from="1756182406986" duration="516000" />
-      <workItem from="1756218737842" duration="8216000" />
+      <workItem from="1756218737842" duration="10444000" />
     </task>
     <servers />
   </component>

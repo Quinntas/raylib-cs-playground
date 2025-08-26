@@ -81,7 +81,7 @@ public class ClientSocketNetworkManager : IConnectionManager, INetworkManager
 
 public class Network
 {
-    private INetworkManager _manager;
+    private INetworkManager? _manager;
     private NetworkState _state = NetworkState.Disconnected;
     public bool IsHost => _state == NetworkState.Server;
     public bool IsConnected => _state == NetworkState.Client;
@@ -98,10 +98,15 @@ public class Network
         }
     }
 
+    public void RunCallbacks()
+    {
+        SteamClient.RunCallbacks();
+    }
+
     public void Close()
     {
         SteamClient.Shutdown();
-        if (_state != NetworkState.Disconnected)
+        if (_state is NetworkState.Server or NetworkState.Client && _manager != null)
             _manager.Close();
     }
 

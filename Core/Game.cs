@@ -1,18 +1,16 @@
 ﻿using Raylib_cs;
-using Steamworks;
 
 namespace raylib_cs_playground.Core;
 
 public class Game(string windowTitle, Time time)
 {
     public readonly EntityManager EntityManager = new();
-    public string WindowTitle { get; } = windowTitle;
 
     public void Init()
     {
         Raylib.SetTargetFPS(144);
 
-        Raylib.InitWindow(800, 800, WindowTitle);
+        Raylib.InitWindow(800, 800, windowTitle);
 
         // Raylib.ToggleFullscreen();
     }
@@ -37,7 +35,7 @@ public class Game(string windowTitle, Time time)
 
             time.DeltaTime = Raylib.GetFrameTime();
 
-            SteamClient.RunCallbacks();
+            Globals.Network.RunCallbacks();
 
             EntityManager.RunUpdate();
 
