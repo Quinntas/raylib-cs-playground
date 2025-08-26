@@ -1,4 +1,5 @@
 ﻿using Raylib_cs;
+using Steamworks;
 
 namespace raylib_cs_playground.Core;
 
@@ -35,6 +36,8 @@ public class Game(string windowTitle, Time time)
             var startTime = Raylib.GetTime();
 
             time.DeltaTime = Raylib.GetFrameTime();
+
+            SteamClient.RunCallbacks();
 
             EntityManager.RunUpdate();
 

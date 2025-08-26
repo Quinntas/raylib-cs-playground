@@ -6,12 +6,15 @@ namespace raylib_cs_playground;
 public static class Globals
 {
     public static Time Time { get; } = new();
+    public static Network Network { get; } = new();
 }
 
 internal static class Program
 {
     public static void Main()
     {
+        Globals.Network.Init();
+
         var game = new Game(
             "Playground",
             Globals.Time
@@ -20,5 +23,7 @@ internal static class Program
         game.Init();
         game.EntityManager.AddEntity(new Knight());
         game.GameLoop();
+
+        Globals.Network.Close();
     }
 }

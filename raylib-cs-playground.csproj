@@ -13,7 +13,6 @@
 
     <ItemGroup>
         <PackageReference Include="Raylib-cs" Version="7.0.1"/>
-        <PackageReference Include="Steamworks.NET" Version="2024.8.0"/>
     </ItemGroup>
 
     <ItemGroup>
@@ -26,9 +25,8 @@
         <Content Include="steam_api64.dll">
             <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </Content>
-        <Content Include="steam_appid.txt">
-            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-        </Content>
+        <Reference Include="Facepunch.Steamworks.Win64">
+            <HintPath>Libs\Facepunch\Facepunch.Steamworks.Win64.dll</HintPath>
+        </Reference>
     </ItemGroup>
-
 </Project>

@@ -12,10 +12,12 @@
       <change beforePath="$PROJECT_DIR$/../amaz-soft/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../amaz-soft/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mentorio/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mentorio/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.raylib-cs-playground/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.raylib-cs-playground/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Game.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/raylib-cs-playground.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/raylib-cs-playground.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/raylib-cs-playground.sln" beforeDir="false" afterPath="$PROJECT_DIR$/raylib-cs-playground.sln" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/raylib-cs-playground.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/raylib-cs-playground.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/steam_api64.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/steam_appid.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,15 +32,16 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8028653353924bf09961d06afedd16924cc00/d6/6857ee00/SteamAPI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/56765d8279211f3c88619b4ba2d26e5e5678efd54be78cbf6d4fb953ba1/ISocketManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6db758e8796fec52b9370162880389ef9f387650ce588c3c3a54a9a4f2aa8/SteamNetworkingSockets.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f1b8aa688264e018ffbd85b5e7c074da865f1d1ae445ba336c9d428765beac33/IConnectionManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Roaming/NuGet/NuGet.Config" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Core/Animation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Core/AnimationController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/caioq/Documents/GIthub/raylib-cs-playground/Core/Game.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/caioq/Documents/GIthub/raylib-cs-playground/Core/Game.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Core/Enums/NetworkState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Core/Network.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Core/Sprite.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Core/SpriteSheet.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/caioq/Documents/GIthub/raylib-cs-playground/Program.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/caioq/Documents/GIthub/raylib-cs-playground/Program.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/caioq/Documents/GIthub/raylib-cs-playground/Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -67,7 +70,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "pnpm",
     "rider.code.cleanup.on.save": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "RiderNuGetOptionsPageId",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
@@ -111,6 +114,7 @@
       <workItem from="1756173202164" duration="4565000" />
       <workItem from="1756178565209" duration="3752000" />
       <workItem from="1756182406986" duration="516000" />
+      <workItem from="1756218737842" duration="8216000" />
     </task>
     <servers />
   </component>
