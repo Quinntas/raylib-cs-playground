@@ -1,6 +1,4 @@
-﻿using System.Numerics;
-using raylib_cs_playground.Components;
-using raylib_cs_playground.Core;
+﻿using raylib_cs_playground.Core;
 using raylib_cs_playground.Scripts;
 
 namespace raylib_cs_playground;
@@ -20,7 +18,7 @@ internal static class Program
         );
 
         game.Init();
-        
+        game.EntityManager.AddEntity(new Knight());
         game.GameLoop();
     }
 }

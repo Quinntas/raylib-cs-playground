@@ -3,64 +3,29 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../.." vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../DDD-template" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../Ponto-V2-Landing" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../PontoV2-Front" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../PontoV2-Integrator" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../Quintas-Portfolio" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../SouRev---Backend" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../Zappis" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../ai-chatbot" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../amaz-soft" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../amazbank" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../amazdb" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../ddd" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../ddd-template" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../decorai" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../dyna" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../dyna (Copy)" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../enigma" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../express-template" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../express-template/packages/typescript-utils" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../fastify-template" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../flapbird" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../graphql-template" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../hono-template" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../kepper" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../luna" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../magic-loot" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../mentorio" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../mentorio-new" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../mentorio-new-new" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../minesweeper" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../mynx" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../neobase" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../netflix" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../nextjs-playground" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../pixel-art-generator" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../projeti-2025-1" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../qcoin" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../qt-db" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../rest-query-builder/my-app" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../rev-ai-playground" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../revpay" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../revpay-2.0" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../revpay-2.0/packages/typescript-utils" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../revpay-3" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../revpay-3/packages/typescript-utils" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../shadcn-chat" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../shadcn-table" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../shadcn-table-template" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../sisgsi" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../sword-api" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../tasty" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../tasty-front" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../the-lab-test" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../typescript-playground" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../typescript-utils" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../watchzap" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../watchzap-front" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../watchzap-front-vite" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../zap-guard-front" vcs="Git" />
   </component>
 </project>

@@ -10,9 +10,9 @@ public class Game(string windowTitle, Time time)
     public void Init()
     {
         Raylib.SetTargetFPS(144);
-        
+
         Raylib.InitWindow(800, 800, WindowTitle);
-        
+
         // Raylib.ToggleFullscreen();
     }
 
@@ -29,8 +29,6 @@ public class Game(string windowTitle, Time time)
     public void GameLoop()
     {
         EntityManager.RunStart();
-
-        var a = new SpriteSheet("run_idle.png", 32, 32, 2, 2);
 
         while (!Raylib.WindowShouldClose())
         {
