@@ -8,23 +8,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="461102df-0ef9-489d-9ba7-3fc93b004063" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Core/Animation.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/AnimationController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Sprite.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Knight.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PontoV2-Integrator/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../PontoV2-Integrator/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../amaz-soft/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../amaz-soft/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mentorio/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mentorio/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.raylib-cs-playground/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.raylib-cs-playground/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.raylib-cs-playground/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.raylib-cs-playground/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/Transform.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Transform.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Game.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/SpriteSheet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/SpriteSheet.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Square.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sprites/nun_idle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sprites/nun_jump.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sprites/nun_walk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raylib-cs-playground.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/raylib-cs-playground.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raylib-cs-playground.sln" beforeDir="false" afterPath="$PROJECT_DIR$/raylib-cs-playground.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raylib-cs-playground.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/raylib-cs-playground.sln.DotSettings.user" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,11 +29,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8028653353924bf09961d06afedd16924cc00/d6/6857ee00/SteamAPI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Core/Animation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Core/AnimationController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/caioq/Documents/GIthub/raylib-cs-playground/Core/Game.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/caioq/Documents/GIthub/raylib-cs-playground/Core/Game.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Core/Sprite.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Core/SpriteSheet.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/caioq/Documents/GIthub/raylib-cs-playground/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/caioq/Documents/GIthub/raylib-cs-playground/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/caioq/Documents/GIthub/raylib-cs-playground/Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 3
@@ -62,21 +60,23 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "pnpm",
     "rider.code.cleanup.on.save": "true",
-    "settings.editor.selected.configurable": "actions.on.save",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RunManager">
     <configuration name="raylib-cs-playground" type="DotNetProject" factoryName=".NET Project">
-      <option name="EXE_PATH" value="" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/bin/Debug/net8.0/raylib-cs-playground.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bin/Debug/net8.0" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="ENV_FILE_PATHS" value="" />
@@ -91,7 +91,7 @@
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
       <option name="PROJECT_KIND" value="DotNetCore" />
-      <option name="PROJECT_TFM" value="" />
+      <option name="PROJECT_TFM" value="net8.0" />
       <method v="2">
         <option name="Build" />
       </method>
@@ -108,13 +108,16 @@
       <workItem from="1756163857450" duration="436000" />
       <workItem from="1756164326239" duration="723000" />
       <workItem from="1756166415933" duration="103000" />
-      <workItem from="1756173202164" duration="4052000" />
+      <workItem from="1756173202164" duration="4565000" />
+      <workItem from="1756178565209" duration="3752000" />
+      <workItem from="1756182406986" duration="516000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

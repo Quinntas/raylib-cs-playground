@@ -6,14 +6,27 @@
         <RootNamespace>raylib_cs_playground</RootNamespace>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <Configurations>Release;Debug</Configurations>
+        <Platforms>x64</Platforms>
     </PropertyGroup>
+
 
     <ItemGroup>
         <PackageReference Include="Raylib-cs" Version="7.0.1"/>
+        <PackageReference Include="Steamworks.NET" Version="2024.8.0"/>
     </ItemGroup>
 
     <ItemGroup>
         <Content Include="Sprites/**/*">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Content Include="steam_api64.dll">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Include="steam_appid.txt">
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </Content>
     </ItemGroup>
