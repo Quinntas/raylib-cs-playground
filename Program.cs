@@ -1,4 +1,6 @@
-﻿using raylib_cs_playground.Core;
+﻿using System.Numerics;
+using raylib_cs_playground.Components;
+using raylib_cs_playground.Core;
 using raylib_cs_playground.Scripts;
 
 namespace raylib_cs_playground;
@@ -14,14 +16,11 @@ internal static class Program
     {
         var game = new Game(
             "Playground",
-            800,
-            600,
-            144,
             Globals.Time
         );
 
         game.Init();
-        game._entityManager.AddEntity(new Square());
+        
         game.GameLoop();
     }
 }

@@ -2,17 +2,18 @@
 
 namespace raylib_cs_playground.Core;
 
-public class Game(string windowTitle, int screenWidth, int screenHeight, int targetFps, Time time)
+public class Game(string windowTitle, Time time)
 {
-    public readonly EntityManager _entityManager = new();
+    public readonly EntityManager EntityManager = new();
     public string WindowTitle { get; } = windowTitle;
-    public int ScreenWidth { get; } = screenWidth;
-    public int ScreenHeight { get; } = screenHeight;
 
     public void Init()
     {
-        Raylib.SetTargetFPS(targetFps);
-        Raylib.InitWindow(ScreenWidth, ScreenHeight, WindowTitle);
+        Raylib.SetTargetFPS(144);
+        
+        Raylib.InitWindow(800, 800, WindowTitle);
+        
+        // Raylib.ToggleFullscreen();
     }
 
     private void Draw()
@@ -20,14 +21,16 @@ public class Game(string windowTitle, int screenWidth, int screenHeight, int tar
         Raylib.BeginDrawing();
         Raylib.ClearBackground(Color.White);
 
-        _entityManager.RunDraw();
+        EntityManager.RunDraw();
 
         Raylib.EndDrawing();
     }
 
     public void GameLoop()
     {
-        _entityManager.RunStart();
+        EntityManager.RunStart();
+
+        var a = new SpriteSheet("run_idle.png", 32, 32, 2, 2);
 
         while (!Raylib.WindowShouldClose())
         {
@@ -35,7 +38,7 @@ public class Game(string windowTitle, int screenWidth, int screenHeight, int tar
 
             time.DeltaTime = Raylib.GetFrameTime();
 
-            _entityManager.RunUpdate();
+            EntityManager.RunUpdate();
 
             Draw();
 
