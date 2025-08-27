@@ -3,5 +3,6 @@
 public class Time
 {
     public float DeltaTime { get; set; }
+    public double TickDeltaTime { get; set; }
     public double LastFrameTime { get; set; }
 }

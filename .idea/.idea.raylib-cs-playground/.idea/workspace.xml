@@ -13,7 +13,8 @@
       <change beforePath="$PROJECT_DIR$/../mentorio/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mentorio/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.raylib-cs-playground/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.raylib-cs-playground/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Game.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Network.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Network.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Time.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Time.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,10 +35,12 @@
     <setting file="file://$USER_HOME$/AppData/Roaming/NuGet/NuGet.Config" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Core/Animation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Core/AnimationController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Core/Debug.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Core/Enums/NetworkState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Core/Network.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Core/Sprite.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Core/SpriteSheet.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Core/TpsSystem.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -52,25 +55,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Project.raylib-cs-playground.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "pnpm",
-    "rider.code.cleanup.on.save": "true",
-    "settings.editor.selected.configurable": "RiderNuGetOptionsPageId",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Project.raylib-cs-playground.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;pnpm&quot;,
+    &quot;rider.code.cleanup.on.save&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;RiderNuGetOptionsPageId&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="raylib-cs-playground" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="$PROJECT_DIR$/bin/Debug/net8.0/raylib-cs-playground.exe" />
@@ -110,7 +113,8 @@
       <workItem from="1756173202164" duration="4565000" />
       <workItem from="1756178565209" duration="3752000" />
       <workItem from="1756182406986" duration="516000" />
-      <workItem from="1756218737842" duration="10444000" />
+      <workItem from="1756218737842" duration="10510000" />
+      <workItem from="1756260787738" duration="2087000" />
     </task>
     <servers />
   </component>

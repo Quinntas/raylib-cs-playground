@@ -7,6 +7,7 @@ public static class Globals
 {
     public static Time Time { get; } = new();
     public static Network Network { get; } = new();
+    public static Debugger Debugger { get; } = new();
 }
 
 internal static class Program
@@ -21,7 +22,12 @@ internal static class Program
         );
 
         game.Init();
+
+        // TODO: Remove when release
+        game.EntityManager.AddEntity(Globals.Debugger);
+
         game.EntityManager.AddEntity(new Knight());
+
         game.GameLoop();
 
         Globals.Network.Close();

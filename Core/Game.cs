@@ -5,6 +5,7 @@ namespace raylib_cs_playground.Core;
 public class Game(string windowTitle, Time time)
 {
     public readonly EntityManager EntityManager = new();
+    public readonly TpsSystem TpsSystem = new();
 
     public void Init()
     {
@@ -15,7 +16,7 @@ public class Game(string windowTitle, Time time)
         // Raylib.ToggleFullscreen();
     }
 
-    private void Draw()
+    private void OnDraw()
     {
         Raylib.BeginDrawing();
         Raylib.ClearBackground(Color.White);
@@ -25,6 +26,26 @@ public class Game(string windowTitle, Time time)
         Raylib.EndDrawing();
     }
 
+    private void OnTick()
+    {
+        time.TickDeltaTime = TpsSystem.TickDeltaTime;
+
+        Globals.Debugger.UpsertDebugData("Target TPS", TpsSystem.TargetTps);
+        Globals.Debugger.UpsertDebugData("Actual TPS", TpsSystem.ActualTps);
+
+        EntityManager.RunFixedUpdate();
+    }
+
+    private void OnFrame()
+    {
+        time.DeltaTime = Raylib.GetFrameTime();
+
+        Globals.Debugger.UpsertDebugData("FPS", Raylib.GetFPS());
+
+        EntityManager.RunUpdate();
+    }
+
+
     public void GameLoop()
     {
         EntityManager.RunStart();
@@ -33,13 +54,13 @@ public class Game(string windowTitle, Time time)
         {
             var startTime = Raylib.GetTime();
 
-            time.DeltaTime = Raylib.GetFrameTime();
-
             Globals.Network.RunCallbacks();
 
-            EntityManager.RunUpdate();
+            TpsSystem.Update(startTime, OnTick);
 
-            Draw();
+            OnFrame();
+
+            OnDraw();
 
             var endTime = Raylib.GetTime();
             time.LastFrameTime = endTime - startTime;
